@@ -18,7 +18,8 @@ Guests interact through a real-time chat interface powered by a locally running 
 
 ## Architecture Diagram
 
-![alt text](<Screenshot 2026-03-06 004831.png>)
+<img width="1309" height="618" alt="Screenshot 2026-03-06 004831" src="https://github.com/user-attachments/assets/ac323c14-5ef5-4fff-be60-5705d7127591" />
+
 
 ### Data Flow (one turn)
 
@@ -364,3 +365,4 @@ restricted to the actual frontend origin in any production deployment.
 The API has no rate-limiter. A single client can flood the backend with  
 requests, starving other sessions. This would need a middleware layer  
 (e.g., `slowapi`) before going to production.
+
